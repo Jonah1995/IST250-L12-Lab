@@ -1,0 +1,142 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Jonah's Personal Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-color: steelblue;
+            font-family: Verdana, sans-serif;
+        }
+        #layout {
+            margin-left: 3%;
+            margin-right: 3%;
+            display: grid;
+        }
+        header {
+            font-family: Georgia, serif;
+            grid-area: 1/1/2/3;
+        }
+        main {
+            background-color: MintCream;
+            padding: 20px;
+            border: 5px solid silver;
+            border-radius: 20px;
+            margin: 5px;
+            grid-area: 2/1/3/2;
+        }
+        footer {
+            text-align: center;
+            grid-area: 3/1/4/3;
+        }
+        table, th, td {
+            background-color: white;
+            border: 1px solid black;
+            margin-left:40px;
+        }
+        th, td {
+            padding: 10px;
+        }
+        #profile {
+            grid-area: 2/2/3/3;
+            border: 5px solid silver;
+            border-radius: 20px;
+            margin: 5px;
+        }
+    </style>
+    <script>
+    </script>
+</head>
+<body>
+    <div id="layout">
+        <header>
+            <h1>Jonah Gindhart</h1>
+            <h2>Major: Information Science & Technology</h2>
+            <hr>
+        </header>
+        
+        <img id="profile" src="images/profile.jpg">
+        
+        <main>
+            <h3>School Life</h3>
+            <p>Jonah Gindhart is a fifth-year at The Pennsylvania State University! He is pursuing a Bachelor's degree in Information Sciences and Technology with a focus in Integration and Application, as well as a minor in History. His on-campus club actities include: Reformed University Fellowship (RUF), Penn State Anime Organization (PSAO), and the Penn State Star Wars Club. He will be graduating in the summer of 2020.</p>
+            <br>
+            <h3>Personal Life</h3>
+            <p>Jonah was born in Vincentown, South Jersey in 1995 and grew up there for 17 years. He moved to Springfield, PA in 2013 before moving a year later to Bellefonte, PA - where he now lives with his family. He has three siblings: his older brother Caleb, younger sister Bethany, and younger brother Eli. Jonah's hobbies include: watching movies/anime, playing video games, working out at the gym, listening to music, taking road trips to his favorite beaches, and playing his favorite tabletop miniatures board game: <a href="https://www.youtube.com/watch?v=xq_CeIyg8rQ" target="_blank">Star Wars X-wing</a>.</p>
+            <br>
+            <table>
+                <caption>Star Wars Movie Rankings:</caption>
+                <tr>
+                    <th>Title</th>
+                    <th>Rank</th>
+                    <th>Score</th>
+                </tr>
+                <tr>
+                    <td>Star Wars Episode 5: The Empire Strikes Back</td>
+                    <td>1</td>
+                    <td>5 / 5</td>
+                </tr>
+                <tr>
+                    <td>Star Wars Episode 4: A New Hope</td>
+                    <td>2</td>
+                    <td>5 / 5</td>
+                </tr>
+                <tr>
+                    <td>Star Wars Episode 6: Return of the Jedi</td>
+                    <td>3</td>
+                    <td>4.5 / 5</td>
+                </tr>
+                <tr>
+                    <td>Star Wars Episode 3: Revenge of the Sith</td>
+                    <td>4</td>
+                    <td>4.5 / 5</td>
+                </tr>
+                <tr>
+                    <td>Rogue One: A Star Wars Story</td>
+                    <td>5</td>
+                    <td>4 / 5</td>
+                </tr>
+                <tr>
+                    <td>Star Wars Episode 1: The Phantom Menace</td>
+                    <td>6</td>
+                    <td>3 / 5</td>
+                </tr>
+                <tr>
+                    <td>Solo: A Star Wars Story</td>
+                    <td>7</td>
+                    <td>3 / 5</td>
+                </tr>
+                <tr>
+                    <td>Star Wars Episode 2: Attack of the Clones</td>
+                    <td>8</td>
+                    <td>2.5 / 5</td>
+                </tr>
+                <tr>
+                    <td>Star Wars Episode 7: The Force Awakens</td>
+                    <td>9</td>
+                    <td>2.5 / 5</td>
+                </tr>
+                <tr>
+                    <td>Star Wars Episode 8: The Last Jedi</td>
+                    <td>10</td>
+                    <td>1.5 / 5</td>
+                </tr>
+                <tr>
+                    <td>Star Wars Episode 9: The Rise of Skywalker</td>
+                    <td>11</td>
+                    <td>1 / 5</td>
+                </tr>
+            </table>
+            <br>
+        </main>
+        <footer>
+            <hr>
+            <p>Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear())</script></p>
+        </footer>
+    </div>
+</body>
+
+</html>
